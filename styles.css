@@ -1,0 +1,151 @@
+a.pagor {
+	background: #eee none repeat scroll 0 0;
+	border: 1px solid #ccc;
+	color: #444;
+	display: block;
+	float: left;
+	height: 30px;
+	margin-right: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	text-align: center;
+	text-decoration: none;
+	width: 30px;
+}
+
+table{
+	width: 100%;
+	margin-left: -400px;
+	border-collapse: collapse;
+	text-align:center;
+}
+
+#glavnoMeni h1{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	width: 400px;
+	font-size: 32px;
+	text-shadow: 0.8px 0.8px #A35C40;
+	padding-left: 0px;
+	margin-top: -70px;
+	font-family: cursive, Arial, Verdana;
+	font-style: oblique;
+}
+#AJ, #AJ1, #AJ2{
+	background-color: white;
+}
+#glavno h1, #glavnoAdmin h1{
+	width: 500px;
+	font-size: 32px;
+	text-shadow: 0.8px 0.8px #A35C40;
+	padding-left: 50px;
+	margin-top: -70px;
+	font-family: cursive, Arial, Verdana;
+	font-style: oblique;
+}
+
+a.pagor:hover {
+	background:#ADDADC;
+	border:1px solid #33A8AD;
+	color:white;
+}
+
+a.selected {
+	background:#A3E9EC;
+	border:1px solid #6DCED2;
+}
+#glavnoMeni{
+	font-size: 20px;
+	margin-left: 700px;
+}
+#searchBox{
+	margin-bottom: 20px;
+}
+#meni{
+	margin-top: 20px;
+	width: 760px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.42);
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 200px;
+	border-radius: 10px 10px 0px 0px;
+}
+#menu{
+
+}
+#menu tr:nth-child(2){
+	background-color: rgba(0, 0, 0, 0.35);
+	color:white;
+}
+#menu tr:nth-child(odd) {
+	background-color: rgba(255, 224, 150, 0.81);
+}
+.ta tr:hover {
+	background-color: #9C612D;
+}
+.highlight { background: #9C612D;
+}
+
+#glavnoMeni,#glavnoAdmin{
+	position: relative;
+	margin-bottom: 30px;
+	padding-bottom: 40px;
+	background-color: rgba(253, 251, 255, 0.5);
+	font-size: px;
+}
+#menu td{
+	padding:8px
+}
+#meni ul{
+	float:left;
+	list-style-type: none;
+	width: 100%;
+	margin-left: 70px;
+	letter-spacing: 1px;
+}
+#meni li{
+	display: inline;
+}
+.tekuca{
+	background-color: #C28148;
+}
+#meni a{
+	float: left;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	width: 120px;
+	height: 30px;
+	padding-top: 6.5px;
+	margin-top: 7.5px;
+}
+
+#meni a:hover{
+	background-color: #C28148;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+#mar{
+	background-color: white;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 2px ; 
+	border-radius: 5%;
+}
+
+#mar1{
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: justify;
+}
